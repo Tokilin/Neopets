@@ -1,14 +1,14 @@
 <style>
 body, #ban {
-	background: linear-gradient(0deg, #000000 0%, #2E1A9D 45%);
+	background-color: #281980;
 }
 #header {
-	background: url(https://raw.githubusercontent.com/Tokilin/Neopets/refs/heads/main/FF%20Theme/FF%20Banner.png) no-repeat;
+	background: url("http://raw.githubusercontent.com/Tokilin/Neopets/refs/heads/main/FF%20Theme/FF%20Banner.png") no-repeat;
 	height: 177px;
 }
 .user {
 	padding-right: 30px;
-	background: url(https://raw.githubusercontent.com/Tokilin/Neopets/refs/heads/main/FF%20Theme/BackgroundUser.png) no-repeat transparent;
+	background: url("http://raw.githubusercontent.com/Tokilin/Neopets/refs/heads/main/FF%20Theme/BackgroundUser.png") no-repeat transparent;
 }
 #template_nav, #nst {
 	padding-top: 83px;
@@ -18,34 +18,38 @@ body, #ban {
 }
 ul.dropdown {
 	color: #000000;
-	border: none;
-	background: url(https://raw.githubusercontent.com/Tokilin/Neopets/refs/heads/main/FF%20Theme/BGUL.png) center / 100% 100% no-repeat transparent;
-	padding: 10px;
-	}
+	border: solid 4px #FFFFFF;
+	background: #2E1A9D;
+}
 #main {
 	border: none;
 	background-color: transparent;
 }
 .sidebar {
-	background: url(https://raw.githubusercontent.com/Tokilin/Neopets/refs/heads/main/FF%20Theme/BGSide.png) top left / 100% 100% repeat transparent;
+	background: url("http://raw.githubusercontent.com/Tokilin/Neopets/refs/heads/main/FF%20Theme/BGSide.png") top left repeat transparent;
 }
-.sidebar, .sidebarTable, .sidebarHeader, .sidebarModule, .neofriend, .activePetInfo, .activePet {
+.sidebar, .sidebarTable, .sidebarHeader, .sidebarModule, .neofriend, .activePetInfo, .activePetInfo td, .activePet {
+	color: #FFFFFF;
 	border: none;
 	background-color: transparent;
 }
-.content{
+.content {
 	color: #FFFFFF;
 	text-align: center;
-	background: url(https://raw.githubusercontent.com/Tokilin/Neopets/refs/heads/main/FF%20Theme/BGContent.png) top left / 100% 100% repeat transparent;
-	}
-.content a {
+	background: url("http://raw.githubusercontent.com/Tokilin/Neopets/refs/heads/main/FF%20Theme/BGContent.png") top left repeat transparent;
+}
+.content a, .content td {
 	color: #FFFFFF;
 	text-align: center;
+}
+.content td img {
+	border: none;
+	background: url("http://raw.githubusercontent.com/Tokilin/Neopets/refs/heads/main/FF%20Theme/BGUL.png") center no-repeat transparent;
 }
 #footer {
-	background: url(https://raw.githubusercontent.com/Tokilin/Neopets/refs/heads/main/FF%20Theme/BGFooter.png) top center / 996px 10px no-repeat transparent;
+	background: url("http://raw.githubusercontent.com/Tokilin/Neopets/refs/heads/main/FF%20Theme/BGFooter.png") top center no-repeat transparent;
 }
-.footernifty{
+.footernifty {
 	height: 0px;
 }
 </style>
